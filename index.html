@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header><img src="./img/logo.png" alt="logo" class="logo-mobile"></header>
+    <main>
+        <section class="info">
+            <header><img src="./img/logo.png" alt="logo" class="logo"></header>
+                <h1><span>WE'RE</span><br>COMING<br>SOON</h1>
+                <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+                
+            <form action="#">
+                <input type="email" name="Email"placeholder='Email Address' id="email">
+                <button type="submit">
+                    <img src="./img/arrow.png"  class='arrow'>
+                </button>
+                <img src="./img/icon-error.png" class="error">
+                <p class="error-p">Please provide a valid email</p>
+            </form>
+        </section>
+
+
+        <section class="image">
+            <picture>
+                <source media="(min-width:768px)" srcset ="./img/hero-desktop.jpg" class="desktop-img">
+                <img src="./img/hero-mobile.jpg" alt="" class="mobile-img"> 
+            </picture>
+        </section>
+       
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
